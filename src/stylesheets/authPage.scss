@@ -1,0 +1,60 @@
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #2B2730;
+  .auth {
+    position: relative;
+    border-radius: 0 0 25px 25px;
+    display: flex;
+    filter: drop-shadow(0px 15px 25px #b4b4b4);
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 500px;
+    background: linear-gradient(90deg, rgba(236,190,245,1) 50%, rgba(176,107,244,1) 100%);
+    &__button {
+      width: 100px;
+      height: 35px;
+      margin-top: 15px;
+      border-radius: 15px;
+      border-style: none;
+      cursor: pointer;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 25px;
+      margin-left: 15px;
+      margin-right: 15px;
+      input {
+        width: 235px;
+        height: 30px;
+        padding: 15px;
+        border-radius: 25px;
+        border-style: none;
+        font-size: 16px;
+        background: #FFFFFF;
+        &:focus {
+          outline: none !important;
+        }
+      }
+      button {
+        width: 200px;
+        height: 45px;
+        cursor: pointer;
+        border-radius: 25px;
+        border-style: none;
+        font-size: 16px;
+        font-weight: 600;
+        background: #ffffff;
+        filter: drop-shadow(3px 3px 5px #2B2730);
+      }
+    }
+    .model_canvas {
+      border-radius: 0 0 0 25px;
+    }
+  }
+}
